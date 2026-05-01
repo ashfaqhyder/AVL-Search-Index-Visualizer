@@ -98,8 +98,7 @@ AVL_ADVANCED/
 
 | Search Highlight | Rotation Display |
 |---|---|
-| <img width="1823" height="813" alt="image" src="https://github.com/user-attachments/assets/09d32f20-9472-4e7a-8113-c710e51bdcaf" />
- | <img width="1880" height="931" alt="image" src="https://github.com/user-attachments/assets/8f835d09-f708-4b1e-8f72-870bd93e7c03" />|
+| <img width="1823" height="813" alt="image" src="https://github.com/user-attachments/assets/09d32f20-9472-4e7a-8113-c710e51bdcaf" /> | <img width="1880" height="931" alt="image" src="https://github.com/user-attachments/assets/8f835d09-f708-4b1e-8f72-870bd93e7c03" /> |
 
 </div>
 
