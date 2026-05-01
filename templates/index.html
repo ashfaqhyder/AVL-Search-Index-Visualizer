@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Keyword Indexing System Using AVL Tree</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="page-grid" aria-hidden="true"></div>
+    <main class="app-shell">
+        <section class="top-panel">
+            <div class="hero-copy">
+                <div class="brand-row">
+                    <span class="brand-mark">AVL</span>
+                    <p class="eyebrow">Search Engine Index Simulator</p>
+                </div>
+                <h1>Real-Time Keyword Indexing System Using AVL Tree</h1>
+                <div class="hero-stats">
+                    <span>AVL: O(log n)</span>
+                    <span>BST: O(n) worst case</span>
+                    <span>In-memory indexing</span>
+                </div>
+            </div>
+            <div class="status-card">
+                <span class="status-label">Latest Rotation</span>
+                <strong id="rotationType">None</strong>
+            </div>
+        </section>
+
+        <section class="controls">
+            <div class="input-wrap">
+                <span class="input-prefix">keyword</span>
+                <input id="keywordInput" type="text" placeholder="algorithm" autocomplete="off">
+            </div>
+            <button id="insertBtn" class="primary-action">Insert</button>
+            <button id="deleteBtn">Delete</button>
+            <button id="searchBtn">Search</button>
+            <button id="randomBtn" class="secondary">Random</button>
+            <button id="resetBtn" class="danger">Reset</button>
+        </section>
+
+        <section id="message" class="message">Ready to index keywords.</section>
+
+        <section class="metrics-grid">
+            <article class="metric metric-cyan">
+                <span>AVL Height</span>
+                <strong id="avlHeight">0</strong>
+            </article>
+            <article class="metric metric-yellow">
+                <span>BST Height</span>
+                <strong id="bstHeight">0</strong>
+            </article>
+            <article class="metric metric-green">
+                <span>Height Difference</span>
+                <strong id="heightDifference">0</strong>
+            </article>
+            <article class="metric metric-red">
+                <span>Search Steps</span>
+                <strong id="searchSteps">AVL 0 | BST 0</strong>
+            </article>
+        </section>
+
+        <section class="comparison">
+            <article class="tree-panel">
+                <div class="panel-header">
+                    <div>
+                        <h2>AVL Tree</h2>
+                        <span>Balanced index</span>
+                    </div>
+                    <b>O(log n)</b>
+                </div>
+                <div id="avlTree" class="tree-area"></div>
+            </article>
+            <article class="tree-panel">
+                <div class="panel-header">
+                    <div>
+                        <h2>Binary Search Tree</h2>
+                        <span>Unbalanced comparison</span>
+                    </div>
+                    <b>O(n)</b>
+                </div>
+                <div id="bstTree" class="tree-area"></div>
+            </article>
+        </section>
+    </main>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
