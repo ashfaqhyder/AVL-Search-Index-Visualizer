@@ -88,17 +88,18 @@ AVL_ADVANCED/
 
 ## Screenshots
 
-<img width="1880" height="943" alt="image" src="https://github.com/user-attachments/assets/89f37006-ada6-4f92-a377-92f72c96c234" />
-<img width="1877" height="927" alt="image" src="https://github.com/user-attachments/assets/1f2ca243-1c4b-4635-a2e2-679ecfdbc4a9" />
+
+
 
 
 | Dashboard View | AVL vs BST Comparison |
 |---|---|
-| <img src="screenshots/dashboard.png" alt="Dashboard Screenshot" width="100%"> | <img src="screenshots/tree-comparison.png" alt="Tree Comparison Screenshot" width="100%"> |
+| <img width="1880" height="943" alt="image" src="https://github.com/user-attachments/assets/89f37006-ada6-4f92-a377-92f72c96c234" />| <img width="1877" height="927" alt="image" src="https://github.com/user-attachments/assets/1f2ca243-1c4b-4635-a2e2-679ecfdbc4a9" /> |
 
 | Search Highlight | Rotation Display |
 |---|---|
-| <img src="screenshots/search-highlight.png" alt="Search Highlight Screenshot" width="100%"> | <img src="screenshots/rotation-display.png" alt="Rotation Display Screenshot" width="100%"> |
+| <img width="1823" height="813" alt="image" src="https://github.com/user-attachments/assets/09d32f20-9472-4e7a-8113-c710e51bdcaf" /> |
+ | <img width="1880" height="931" alt="image" src="https://github.com/user-attachments/assets/8f835d09-f708-4b1e-8f72-870bd93e7c03" />|
 
 </div>
 
