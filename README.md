@@ -88,7 +88,9 @@ AVL_ADVANCED/
 
 ## Screenshots
 
-Add your project screenshots inside a folder named `screenshots/`, then update the image paths below after uploading to GitHub.
+<img width="1880" height="943" alt="image" src="https://github.com/user-attachments/assets/89f37006-ada6-4f92-a377-92f72c96c234" />
+<img width="1877" height="927" alt="image" src="https://github.com/user-attachments/assets/1f2ca243-1c4b-4635-a2e2-679ecfdbc4a9" />
+
 
 | Dashboard View | AVL vs BST Comparison |
 |---|---|
@@ -234,13 +236,12 @@ Delete: O(log n)
 
 ## Author
 
-**Developed by:** Your Name
+**Developed by:** ASHFAQ HYDER C S
 
 **Project:** Real-Time Keyword Indexing System Using AVL Tree
 
-**GitHub:** `https://github.com/your-username`
 
-**Role:** Full-stack Python Flask Developer
+** Full-stack Python Flask Development 
 
 </div>
 
