@@ -241,7 +241,7 @@ Delete: O(log n)
 **Project:** Real-Time Keyword Indexing System Using AVL Tree
 
 
-** Full-stack Python Flask Development 
+Full-stack Python Flask Development 
 
 </div>
 
